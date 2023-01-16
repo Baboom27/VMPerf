@@ -1,4 +1,4 @@
-# tcgui
+# WebGUI Netem
 
 [![Actions Status](https://github.com/tum-lkn/tcgui/workflows/CI/badge.svg)](https://github.com/tum-lkn/tcgui)
 [![Actions Status](https://github.com/tum-lkn/tcgui/workflows/CodeQL/badge.svg)](https://github.com/tum-lkn/tcgui)
