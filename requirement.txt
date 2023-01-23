@@ -1,2 +1,0 @@
-sudo apt install iproute2 python3-flask
-netem tools & python3-flask
