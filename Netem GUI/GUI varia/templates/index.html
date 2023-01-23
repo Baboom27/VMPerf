@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netem Interface</title>
+</head>
+<body>
+    <h1>Netem Interface</h1>
+    <form method="post">
+        <label for="interface">Interface:</label>
+        <input type="text" id="interface" name="interface">
+        <br>
+        <label for="period">Period (seconds):</label>
+        <input type="text" id="period" name="period">
+        <br>
+        <label for="min_val">Minimum Value:</label>
+        <input type="text" id="min_val" name="min_val">
+        <br>
+        <label for="max_val">Maximum Value:</label>
+        <input type="text" id="max_val" name="max_val">
+        <br>
+        <label for="units">Units:</label>
+        <select id="units" name="units">
+            <option value="bit">bit</option>
+            <option value="kbit">kbit</option>
+            <option value="mbit">mbit</option>
+            <option value="gbit">gbit</option>
+            <option value="tbit">tbit</option>
+            <option value="bps">bps</option>
+            <option value="kbps">kbps</option>
+            <option value="mbps">mbps</option>
+            <option value="gbps">gbps</option>
+            <option value="tbps">tbps</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
